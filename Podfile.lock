@@ -1,0 +1,16 @@
+PODS:
+  - ElasticTransition (2.1.0):
+    - MotionAnimation (~> 0.0.5)
+  - MotionAnimation (0.0.5)
+  - Reveal-iOS-SDK (1.6.2)
+
+DEPENDENCIES:
+  - ElasticTransition
+  - Reveal-iOS-SDK
+
+SPEC CHECKSUMS:
+  ElasticTransition: 7c04b2ad4323fc4b18475c60f061cf4be7399f00
+  MotionAnimation: d9d4060bf4f494dd61bf868b8969a31b1b0b6f2a
+  Reveal-iOS-SDK: e2250b3c155bcfac53ae223ddc1f76d08f206c33
+
+COCOAPODS: 0.39.0
