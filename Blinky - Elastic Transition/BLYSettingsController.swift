@@ -14,6 +14,12 @@ class BLYSettingsController: UIViewController {
         super.viewDidLoad()
 
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        navigationController?.navigationBarHidden = true
+    }
 
    
 }
