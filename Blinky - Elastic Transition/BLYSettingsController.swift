@@ -7,8 +7,14 @@
 //
 
 import UIKit
+import ElasticTransition
 
-class BLYSettingsController: UIViewController {
+class BLYSettingsController: UIViewController, ElasticMenuTransitionDelegate {
+    
+    // Elastic transiton
+    var dismissByBackgroundTouch = true
+    var dismissByBackgroundDrag = true
+    var dismissByForegroundDrag = true
 
     override func viewDidLoad() {
         super.viewDidLoad()

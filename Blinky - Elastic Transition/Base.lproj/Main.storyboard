@@ -15,7 +15,7 @@
                     </navigationBar>
                     <connections>
                         <segue destination="moT-kX-uL0" kind="relationship" relationship="rootViewController" id="b34-wx-7Kg"/>
-                        <segue destination="vFZ-3P-dGu" kind="show" identifier="navControllerToSettings" id="j6b-rp-r4L"/>
+                        <segue destination="vFZ-3P-dGu" kind="modal" identifier="navControllerToSettings" id="j6b-rp-r4L"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uo1-hB-b10" userLabel="First Responder" sceneMemberID="firstResponder"/>
