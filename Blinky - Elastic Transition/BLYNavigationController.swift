@@ -19,16 +19,13 @@ class BLYNavigationController: UINavigationController {
         
         normalGesture.addTarget(self, action: "handleNormalPan:")
         navigationBar.addGestureRecognizer(normalGesture)
-       
-
+    
         transition.sticky = true
         transition.showShadow = true
         transition.panThreshold = 0.3
         transition.shadowRadius = 10.0
         transition.transformType = .TranslateMid
         delegate = transition
-        
-//        NSTimer.scheduledTimerWithTimeInterval(5.0, target: self, selector: "nonInteractiveTransitionTest", userInfo: nil, repeats: false)
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -69,15 +66,4 @@ class BLYNavigationController: UINavigationController {
                 vc.transitioningDelegate = transition
                 vc.modalPresentationStyle = .Custom
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
